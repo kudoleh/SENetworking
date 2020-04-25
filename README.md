@@ -25,12 +25,15 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SENetworking'
 ```
+And then **import SFNetworking** in files where needed
+
 **SENetworking** is also available through [Carthage](https://github.com/Carthage/Carthage). To install
 it, simply add the following line to your Cartfile:
 
 ```ruby
 github "kudoleh/SENetworking"
 ```
+And then **import SFNetworking_iOS** in files where needed (for iOS platform)
 
 ## Author
 
