@@ -112,7 +112,8 @@ And then **import SFNetworking_iOS** in files where needed (for iOS platform)
 
 **SENetworking** is also available through [Swift Package Manager](https://swift.org/package-manager/). To install it:
 ```ruby
-Xcode tab: File -> Swift Packages -> Add Package Dependency -> Enter package repository URL: https://github.com/kudoleh/SENetworking
+Xcode tab: File -> Swift Packages -> Add Package Dependency 
+Enter package repository URL: https://github.com/kudoleh/SENetworking
 ```
 And then **import SFNetworking** in files where needed
 
