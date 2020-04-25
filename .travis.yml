@@ -1,5 +1,5 @@
 os: osx
 language: swift
 xcode_workspace: Example/Networking.xcworkspace
-xcode_scheme: Networking_Example
+xcode_scheme: Networking-Example
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
