@@ -23,8 +23,6 @@ Simple NSURLSession wrapper
 
   s.source_files = 'SENetworking/Module/**/*.{swift}'
   
-  s.resources = 'SENetworking/Module/**/*.{xcassets,json,storyboard,xib,xcdatamodeld}'
-
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files = 'SENetworking/Tests/**/*.{swift}'
   end

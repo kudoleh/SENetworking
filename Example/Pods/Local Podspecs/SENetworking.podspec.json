@@ -12,14 +12,13 @@
     "Oleh Kudinov": "oleh.kudinov@olx.com"
   },
   "source": {
-    "git": "https://github.com/kudoleh/SENetworking",
+    "git": "https://github.com/kudoleh/SENetworking.git",
     "tag": "1.0.0"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "SENetworking/Module/**/*.{swift}",
-  "resources": "SENetworking/Module/**/*.{xcassets,json,storyboard,xib,xcdatamodeld}",
   "testspecs": [
     {
       "name": "Tests",

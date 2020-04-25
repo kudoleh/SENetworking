@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SENetworking: 4a0944941309e568a30ad20f354f1cdce468a513
+  SENetworking: bd9a7dfc3fb9e0f295e341a91a1b5d7b0f635fd8
 
 PODFILE CHECKSUM: a4c368bf0b46db6d90fff01a0b07a8bea00df466
 
