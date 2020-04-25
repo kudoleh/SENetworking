@@ -41,16 +41,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F79D68C2454B5D20093BDA6"
-               BuildableName = "Networking_ExampleTests.xctest"
-               BlueprintName = "Networking_ExampleTests"
-               ReferencedContainer = "container:Networking.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "E8768F7FC2A287F4B04356CACF16DB34"
                BuildableName = "SENetworking-Unit-Tests.xctest"
                BlueprintName = "SENetworking-Unit-Tests"
