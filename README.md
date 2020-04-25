@@ -32,4 +32,4 @@ Oleh Kudinov, kudoleh@hotmail.com
 
 ## License
 
-Open Source License
+MIL License, Open Source License
