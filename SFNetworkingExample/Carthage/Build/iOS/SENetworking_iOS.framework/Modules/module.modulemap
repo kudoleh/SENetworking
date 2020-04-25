@@ -1,0 +1,4 @@
+framework module SENetworking_iOS {
+  header "SENetworking_iOS-Swift.h"
+  requires objc
+}

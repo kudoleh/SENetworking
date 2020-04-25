@@ -22,9 +22,5 @@ Simple NSURLSession wrapper
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SENetworking/Module/**/*.{swift}'
-  
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'SENetworking/Tests/**/*.{swift}'
-  end
 
 end

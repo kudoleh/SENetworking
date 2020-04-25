@@ -1,0 +1,4 @@
+framework module SFNetworking_watchOS {
+  header "SFNetworking_watchOS-Swift.h"
+  requires objc
+}

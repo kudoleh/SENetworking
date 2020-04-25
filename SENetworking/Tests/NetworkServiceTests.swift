@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SENetworking
+@testable import SFNetworkingExample
 
 class NetworkServiceTests: XCTestCase {
     

@@ -1,0 +1,4 @@
+framework module SFNetworking_macOS {
+  header "SFNetworking_macOS-Swift.h"
+  requires objc
+}

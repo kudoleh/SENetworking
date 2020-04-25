@@ -1,0 +1,4 @@
+framework module SFNetworking_tvOS {
+  header "SFNetworking_tvOS-Swift.h"
+  requires objc
+}

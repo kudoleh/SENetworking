@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import SENetworking
+@testable import SFNetworkingExample
 
 class NetworkConfigurableMock: NetworkConfigurable {
     var baseURL: URL = URL(string: "https://mock.test.com")!

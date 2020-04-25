@@ -1,0 +1,32 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+    {
+      "name" : "SFNetworking_watchOS",
+      "hash" : "5801f4bce0566fb7aeee1b08db554d35288ed36f40a67c1eed445b821625b780",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "SFNetworking_macOS",
+      "hash" : "7a671fb2c30a4dba3aba86a65a76fe80fff668a9402dc7ff2993074d53b095a0",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    },
+    {
+      "name" : "SFNetworking_tvOS",
+      "hash" : "aa4596f33896c2352e1f3a5a1522f9f308a60419ccc77a60d6efcbc8d83b22b9",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ],
+  "commitish" : "d2ef734a9823ca5415405836dc2a9b07a72b384e",
+  "iOS" : [
+    {
+      "name" : "SENetworking_iOS",
+      "hash" : "59bb72e87b99ab45a3332bef267aa09e950e512dbc9f4671e13652beff80012f",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
