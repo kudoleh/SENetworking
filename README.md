@@ -10,8 +10,7 @@
 - Simple request cancellation
 - Optimized for unit testing
 - Fully tested
--Ideal for code challenges
-- Free
+- Ideal for code challenges
 
 ## Example
 
