@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'SENetworking'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of Networking.'
+  s.summary          = 'Simple NSURLSession wrapper'
 
   s.description      = <<-DESC
-Simple NSURLSession wrapper with support
+Simple NSURLSession wrapper
 - Minimal implementation
 - Super easy friendly API
 - No Singletons
@@ -14,10 +14,10 @@ Simple NSURLSession wrapper with support
 - Free
                        DESC
 
-  s.homepage         = 'https://github.com/Oleh Kudinov/SENetworking'
+  s.homepage         = 'https://github.com/kudoleh/SENetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Oleh Kudinov' => 'oleh.kudinov@olx.com' }
-  s.source           = { :git => 'https://github.com/Oleh Kudinov/Networking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kudoleh/SENetworking', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
