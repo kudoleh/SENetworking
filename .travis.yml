@@ -1,3 +1,5 @@
 os: osx
-osx_image: xcode11.2
 language: swift
+xcode_project: Example/Networking.xcworkspace
+xcode_scheme: Networking_Example
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
