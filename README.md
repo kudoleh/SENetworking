@@ -1,6 +1,6 @@
-# Networking
+# SENetworking
 
-Simple NSURLSession wrapper with support, ideal for new or existing projects and code challenges
+SENetworking  is  simple and convenient wrapper around NSURLSession that supports common needs. A framework that is small enough to read in one go but useful enough to include in any project. It is fully tested framework for iOS. 
 
 - Super Minimal and Light implementation
 - Data Trasfer Object Mappings
@@ -9,6 +9,8 @@ Simple NSURLSession wrapper with support, ideal for new or existing projects and
 - No external dependencies
 - Simple request cancellation
 - Optimized for unit testing
+- Fully tested
+-Ideal for code challenges
 - Free
 
 ## Example
