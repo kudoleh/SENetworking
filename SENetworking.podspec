@@ -17,7 +17,7 @@ Simple NSURLSession wrapper
   s.homepage         = 'https://github.com/kudoleh/SENetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Oleh Kudinov' => 'oleh.kudinov@olx.com' }
-  s.source           = { :git => 'https://github.com/kudoleh/SENetworking', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kudoleh/SENetworking.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
