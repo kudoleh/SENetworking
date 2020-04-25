@@ -1,0 +1,14 @@
+platform :ios, '10.0'
+
+workspace 'Networking.xcworkspace'
+project 'Networking.xcodeproj'
+
+def networking_pod
+  pod 'SENetworking', :path => '../', :testspecs => ['Tests'] 
+end
+
+target 'Networking_Example' do
+  use_frameworks!
+
+  networking_pod
+end

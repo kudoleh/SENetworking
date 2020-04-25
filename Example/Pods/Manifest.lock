@@ -1,0 +1,18 @@
+PODS:
+  - SENetworking (1.0.0)
+  - SENetworking/Tests (1.0.0)
+
+DEPENDENCIES:
+  - SENetworking (from `../`)
+  - SENetworking/Tests (from `../`)
+
+EXTERNAL SOURCES:
+  SENetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SENetworking: ba4fe3cd06ce8e3b4033609f9e8805fb823d3a7a
+
+PODFILE CHECKSUM: a4c368bf0b46db6d90fff01a0b07a8bea00df466
+
+COCOAPODS: 1.8.4

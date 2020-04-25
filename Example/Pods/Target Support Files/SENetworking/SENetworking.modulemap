@@ -1,0 +1,6 @@
+framework module SENetworking {
+  umbrella header "SENetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
