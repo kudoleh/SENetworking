@@ -104,7 +104,7 @@ Then **pod install** and **import SFNetworking** in files where needed
 ```ruby
 github "kudoleh/SENetworking"
 ```
-Then carthage update and **import SFNetworking_iOS** in files where needed (for iOS platform)
+Then **carthage update** and **import SFNetworking_iOS** in files where needed (for iOS platform)
 
 ### [Swift Package Manager](https://swift.org/package-manager/): To install it with Package Manager:
 ```ruby
