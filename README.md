@@ -115,6 +115,11 @@ Enter package repository URL: https://github.com/kudoleh/SENetworking
 ```
 And then **import SFNetworking** in files where needed
 
+**SENetworking** is also available through Manual installation. To manually install it:
+```ruby
+Copy folder SENetworking into your project
+```
+
 ## Author
 
 Oleh Kudinov, kudoleh@hotmail.com
