@@ -3,8 +3,9 @@
 **S**uper **E**asy **Networking** is  simple and convenient wrapper around NSURLSession that supports common needs. A framework that is small enough to read in one go but useful enough to include in any project. It is fully tested framework for iOS, tvOS, watchOS and OS X.
 
 - Super Minimal and Light implementation
-- Easy use of Data Trasfer Objects and Mappings
+- Easy network configuration
 - Friendly API which makes declarations of Endpoints super easy
+- Easy use of Data Trasfer Objects and Mappings
 - No Singletons
 - No external dependencies
 - Simple request cancellation
@@ -19,7 +20,7 @@
 ```swift
 struct APIEndpoints {
     static func getMovies(with moviesRequestDTO: MoviesRequest) -> Endpoint<MoviesResponse> {
-        return Endpoint(path: "3/search/movie/",
+        return Endpoint(path: "search/movie/",
                         method: .get,
                         queryParametersEncodable: moviesRequestDTO)
     }
@@ -58,7 +59,6 @@ struct MoviesResponse: Decodable {
 struct AppConfiguration {
     var apiKey: String = "xxxxxxxxxxxxxxxxxxxxxxxxx"
     var apiBaseURL: String = "http://api.themoviedb.org"
-    var imagesBaseURL: String = "http://image.tmdb.org"
 }
 
 class DIContainer {
@@ -83,38 +83,40 @@ class DIContainer {
 let endpoint = APIEndpoints.getMovies(with: MoviesRequest(query: "Batman Begins", page: 1))
 dataTransferService.request(with: endpoint) { result in
 
-    guard case let .success(response) = result, let movie = response.movies.first else { return }
+    guard case let .success(response) = result, let movies = response.movies else { return }
 
-    self.title = movie.title
-    self.overviewTextView.text = movie.overview
+    self.show(movies)
 }
 ```
 
 
 ## Installation
 
-**SENetworking** is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### [CocoaPods](https://cocoapods.org): To install it with CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SENetworking'
 ```
-And then **import SFNetworking** in files where needed
+Then **pod install** and **import SFNetworking** in files where needed
 
-**SENetworking** is also available through [Carthage](https://github.com/Carthage/Carthage). To install
-it, simply add the following line to your Cartfile:
+### [Carthage](https://github.com/Carthage/Carthage): To install it with Carthage, simply add the following line to your Cartfile:
 
 ```ruby
 github "kudoleh/SENetworking"
 ```
-And then **import SFNetworking_iOS** in files where needed (for iOS platform)
+Then **carthage update** and **import SFNetworking_iOS** in files where needed (for iOS platform)
 
-**SENetworking** is also available through [Swift Package Manager](https://swift.org/package-manager/). To install it:
+### [Swift Package Manager](https://swift.org/package-manager/): To install it with Package Manager:
 ```ruby
 Xcode tab: File -> Swift Packages -> Add Package Dependency 
 Enter package repository URL: https://github.com/kudoleh/SENetworking
 ```
 And then **import SFNetworking** in files where needed
+
+### Manual installation: To manually install it:
+```ruby
+Copy folder SENetworking into your project
+```
 
 ## Author
 
