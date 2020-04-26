@@ -3,6 +3,7 @@
 **S**uper **E**asy **Networking** is  simple and convenient wrapper around NSURLSession that supports common needs. A framework that is small enough to read in one go but useful enough to include in any project. It is fully tested framework for iOS, tvOS, watchOS and OS X.
 
 - Super Minimal and Light implementation
+- Works with Decodable for responses and Encodable for Requests
 - Easy network configuration
 - Friendly API which makes declarations of Endpoints super easy
 - Easy use of Data Trasfer Objects and Mappings
