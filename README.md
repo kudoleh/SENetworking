@@ -58,7 +58,6 @@ struct MoviesResponse: Decodable {
 struct AppConfiguration {
     var apiKey: String = "xxxxxxxxxxxxxxxxxxxxxxxxx"
     var apiBaseURL: String = "http://api.themoviedb.org"
-    var imagesBaseURL: String = "http://image.tmdb.org"
 }
 
 class DIContainer {
