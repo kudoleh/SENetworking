@@ -82,10 +82,9 @@ class DIContainer {
 let endpoint = APIEndpoints.getMovies(with: MoviesRequest(query: "Batman Begins", page: 1))
 dataTransferService.request(with: endpoint) { result in
 
-    guard case let .success(response) = result, let movie = response.movies.first else { return }
+    guard case let .success(response) = result, let movies = response.movies else { return }
 
-    self.title = movie.title
-    self.overviewTextView.text = movie.overview
+    self.show(movies)
 }
 ```
 
