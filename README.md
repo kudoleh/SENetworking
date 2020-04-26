@@ -23,6 +23,7 @@ struct APIEndpoints {
     static func getMovies(with moviesRequestDTO: MoviesRequest) -> Endpoint<MoviesResponse> {
         return Endpoint(path: "search/movie/",
                         method: .get,
+                        headerParamaters: ["Content-Type": "application/json"], // Optional
                         queryParametersEncodable: moviesRequestDTO)
     }
 }
