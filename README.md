@@ -92,30 +92,28 @@ dataTransferService.request(with: endpoint) { result in
 
 ## Installation
 
-**SENetworking** is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### [CocoaPods](https://cocoapods.org): To install it with CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SENetworking'
 ```
-And then **import SFNetworking** in files where needed
+Then **pod install** and **import SFNetworking** in files where needed
 
-**SENetworking** is also available through [Carthage](https://github.com/Carthage/Carthage). To install
-it, simply add the following line to your Cartfile:
+### [Carthage](https://github.com/Carthage/Carthage): To install it with Carthage, simply add the following line to your Cartfile:
 
 ```ruby
 github "kudoleh/SENetworking"
 ```
-And then **import SFNetworking_iOS** in files where needed (for iOS platform)
+Then carthage update and **import SFNetworking_iOS** in files where needed (for iOS platform)
 
-**SENetworking** is also available through [Swift Package Manager](https://swift.org/package-manager/). To install it:
+### [Swift Package Manager](https://swift.org/package-manager/): To install it with Package Manager:
 ```ruby
 Xcode tab: File -> Swift Packages -> Add Package Dependency 
 Enter package repository URL: https://github.com/kudoleh/SENetworking
 ```
 And then **import SFNetworking** in files where needed
 
-**SENetworking** is also available through Manual installation. To manually install it:
+### Manual installation: To manually install it:
 ```ruby
 Copy folder SENetworking into your project
 ```
