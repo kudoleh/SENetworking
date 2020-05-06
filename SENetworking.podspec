@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SENetworking'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Simple NSURLSession wrapper'
 
   s.description      = <<-DESC
