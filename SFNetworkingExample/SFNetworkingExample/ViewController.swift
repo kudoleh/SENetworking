@@ -69,7 +69,7 @@ struct MoviesResponse: Decodable {
         }
         let title: String
         let overview: String
-        let posterPath: String
+        let posterPath: String?
     }
 
     private enum CodingKeys: String, CodingKey {
@@ -104,8 +104,8 @@ class ViewController: UIViewController {
             self.title = movie.title
             self.overviewTextView.text = movie.overview
 
-            self.imageTransferService.request(with: APIEndpoints.getMovieImage(path: movie.posterPath)) { result in
-
+            guard let posterPath = movie.posterPath else { return }
+            self.imageTransferService.request(with: APIEndpoints.getMovieImage(path: posterPath)) { result in
                 guard case let .success(imageData) = result else { return }
                 self.imageView.image = UIImage(data: imageData)
             }

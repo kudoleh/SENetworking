@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SENetworking'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Simple NSURLSession wrapper'
 
   s.description      = <<-DESC
@@ -20,6 +20,9 @@ Simple NSURLSession wrapper
   s.source           = { :git => 'https://github.com/kudoleh/SENetworking.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.0'
+  s.watchos.deployment_target = '2.0'
+  s.tvos.deployment_target = '9.0'
 
   s.source_files = 'SENetworking/Module/**/*.{swift}'
 
