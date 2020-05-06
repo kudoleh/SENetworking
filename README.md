@@ -1,5 +1,12 @@
 # SENetworking
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/SENetworking)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
+[![License](https://img.shields.io/github/license/kudoleh/SENetworking)
+[![Platform](https://img.shields.io/cocoapods/p/SENetworking)
+[![CI](https://img.shields.io/travis/kudoleh/SENetworking) 
+
 **S**uper **E**asy **Networking** is  simple and convenient wrapper around NSURLSession that supports common needs. A framework that is small enough to read in one go but useful enough to include in any project. It is fully tested framework for iOS, tvOS, watchOS and OS X.
 
 - Super Minimal and Light implementation
