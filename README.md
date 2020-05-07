@@ -3,7 +3,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/SENetworking)](https://cocoapods.org/pods/SENetworking)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
-![Platform](https://img.shields.io/cocoapods/p/SENetworking)
+[![Platform](https://img.shields.io/cocoapods/p/SENetworking)](https://cocoapods.org/pods/SENetworking#carthage-to-install-it-with-carthage-simply-add-the-following-line-to-your-cartfile)
 [![License](https://img.shields.io/github/license/kudoleh/SENetworking)](https://cocoapods.org/pods/SENetworking#license)
 [![CI](https://img.shields.io/travis/kudoleh/SENetworking)](https://travis-ci.com/github/kudoleh/SENetworking)
 
@@ -114,7 +114,7 @@ Then **pod install** and **import SFNetworking** in files where needed
 ```ruby
 github "kudoleh/SENetworking"
 ```
-Then **carthage update** and **import SFNetworking_iOS** in files where needed (for iOS platform)
+Then **carthage update** and **import SFNetworking_iOS** in files where needed (e.g. for iOS platform)
 
 ### [Swift Package Manager](https://swift.org/package-manager/): To install it with Package Manager:
 ```ruby
