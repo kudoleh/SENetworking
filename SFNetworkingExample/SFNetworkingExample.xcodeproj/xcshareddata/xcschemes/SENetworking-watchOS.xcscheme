@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1150"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F7788A32454DD7D0075BB15"
-               BuildableName = "SFNetworking_tvOS.framework"
-               BlueprintName = "SFNetworking-tvOS"
+               BlueprintIdentifier = "1F7788912454DC130075BB15"
+               BuildableName = "SENetworking_watchOS.framework"
+               BlueprintName = "SENetworking-watchOS"
                ReferencedContainer = "container:SFNetworkingExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F7788A32454DD7D0075BB15"
-            BuildableName = "SFNetworking_tvOS.framework"
-            BlueprintName = "SFNetworking-tvOS"
+            BlueprintIdentifier = "1F7788912454DC130075BB15"
+            BuildableName = "SENetworking_watchOS.framework"
+            BlueprintName = "SENetworking-watchOS"
             ReferencedContainer = "container:SFNetworkingExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

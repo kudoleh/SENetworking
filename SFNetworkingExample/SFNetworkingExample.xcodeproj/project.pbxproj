@@ -97,10 +97,10 @@
 		1F77885D2454D9480075BB15 /* SENetworking_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SENetworking_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7788652454D9480075BB15 /* SENetworking-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SENetworking-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F77888B2454DB1D0075BB15 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		1F7788922454DC130075BB15 /* SFNetworking_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFNetworking_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7788A42454DD7D0075BB15 /* SFNetworking_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFNetworking_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7788922454DC130075BB15 /* SENetworking_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SENetworking_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7788A42454DD7D0075BB15 /* SENetworking_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SENetworking_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7788A72454DD7D0075BB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F7788E92454DF0E0075BB15 /* SFNetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFNetworking_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7788E92454DF0E0075BB15 /* SENetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SENetworking_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,9 +167,9 @@
 				1F77881B2454D7440075BB15 /* SFNetworkingExample.app */,
 				1F77885D2454D9480075BB15 /* SENetworking_iOS.framework */,
 				1F7788652454D9480075BB15 /* SENetworking-iOSTests.xctest */,
-				1F7788922454DC130075BB15 /* SFNetworking_watchOS.framework */,
-				1F7788A42454DD7D0075BB15 /* SFNetworking_tvOS.framework */,
-				1F7788E92454DF0E0075BB15 /* SFNetworking_macOS.framework */,
+				1F7788922454DC130075BB15 /* SENetworking_watchOS.framework */,
+				1F7788A42454DD7D0075BB15 /* SENetworking_tvOS.framework */,
+				1F7788E92454DF0E0075BB15 /* SENetworking_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,9 +341,9 @@
 			productReference = 1F7788652454D9480075BB15 /* SENetworking-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F7788912454DC130075BB15 /* SFNetworking-watchOS */ = {
+		1F7788912454DC130075BB15 /* SENetworking-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7788972454DC130075BB15 /* Build configuration list for PBXNativeTarget "SFNetworking-watchOS" */;
+			buildConfigurationList = 1F7788972454DC130075BB15 /* Build configuration list for PBXNativeTarget "SENetworking-watchOS" */;
 			buildPhases = (
 				1F77888D2454DC130075BB15 /* Headers */,
 				1F77888E2454DC130075BB15 /* Sources */,
@@ -354,14 +354,14 @@
 			);
 			dependencies = (
 			);
-			name = "SFNetworking-watchOS";
+			name = "SENetworking-watchOS";
 			productName = "SFNetworking-watchOS";
-			productReference = 1F7788922454DC130075BB15 /* SFNetworking_watchOS.framework */;
+			productReference = 1F7788922454DC130075BB15 /* SENetworking_watchOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1F7788A32454DD7D0075BB15 /* SFNetworking-tvOS */ = {
+		1F7788A32454DD7D0075BB15 /* SENetworking-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7788B52454DD7D0075BB15 /* Build configuration list for PBXNativeTarget "SFNetworking-tvOS" */;
+			buildConfigurationList = 1F7788B52454DD7D0075BB15 /* Build configuration list for PBXNativeTarget "SENetworking-tvOS" */;
 			buildPhases = (
 				1F77889F2454DD7D0075BB15 /* Headers */,
 				1F7788A02454DD7D0075BB15 /* Sources */,
@@ -372,14 +372,14 @@
 			);
 			dependencies = (
 			);
-			name = "SFNetworking-tvOS";
+			name = "SENetworking-tvOS";
 			productName = "SFNetworking-tvOS";
-			productReference = 1F7788A42454DD7D0075BB15 /* SFNetworking_tvOS.framework */;
+			productReference = 1F7788A42454DD7D0075BB15 /* SENetworking_tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1F7788E82454DF0E0075BB15 /* SFNetworking-macOS */ = {
+		1F7788E82454DF0E0075BB15 /* SENetworking-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7788FA2454DF0E0075BB15 /* Build configuration list for PBXNativeTarget "SFNetworking-macOS" */;
+			buildConfigurationList = 1F7788FA2454DF0E0075BB15 /* Build configuration list for PBXNativeTarget "SENetworking-macOS" */;
 			buildPhases = (
 				1F7788E42454DF0E0075BB15 /* Headers */,
 				1F7788E52454DF0E0075BB15 /* Sources */,
@@ -390,9 +390,9 @@
 			);
 			dependencies = (
 			);
-			name = "SFNetworking-macOS";
+			name = "SENetworking-macOS";
 			productName = "SFNetworking-macOS";
-			productReference = 1F7788E92454DF0E0075BB15 /* SFNetworking_macOS.framework */;
+			productReference = 1F7788E92454DF0E0075BB15 /* SENetworking_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -441,10 +441,10 @@
 			targets = (
 				1F77881A2454D7440075BB15 /* SFNetworkingExample */,
 				1F77885C2454D9480075BB15 /* SENetworking-iOS */,
+				1F7788912454DC130075BB15 /* SENetworking-watchOS */,
+				1F7788A32454DD7D0075BB15 /* SENetworking-tvOS */,
+				1F7788E82454DF0E0075BB15 /* SENetworking-macOS */,
 				1F7788642454D9480075BB15 /* SENetworking-iOSTests */,
-				1F7788912454DC130075BB15 /* SFNetworking-watchOS */,
-				1F7788A32454DD7D0075BB15 /* SFNetworking-tvOS */,
-				1F7788E82454DF0E0075BB15 /* SFNetworking-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1061,7 +1061,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7788972454DC130075BB15 /* Build configuration list for PBXNativeTarget "SFNetworking-watchOS" */ = {
+		1F7788972454DC130075BB15 /* Build configuration list for PBXNativeTarget "SENetworking-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F7788982454DC130075BB15 /* Debug */,
@@ -1070,7 +1070,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7788B52454DD7D0075BB15 /* Build configuration list for PBXNativeTarget "SFNetworking-tvOS" */ = {
+		1F7788B52454DD7D0075BB15 /* Build configuration list for PBXNativeTarget "SENetworking-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F7788B62454DD7D0075BB15 /* Debug */,
@@ -1079,7 +1079,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7788FA2454DF0E0075BB15 /* Build configuration list for PBXNativeTarget "SFNetworking-macOS" */ = {
+		1F7788FA2454DF0E0075BB15 /* Build configuration list for PBXNativeTarget "SENetworking-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F7788FB2454DF0E0075BB15 /* Debug */,
