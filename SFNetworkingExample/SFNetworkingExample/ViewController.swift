@@ -42,7 +42,7 @@ class DIContainer {
 
 struct APIEndpoints {
     static func getMovies(with moviesRequestDTO: MoviesRequest) -> Endpoint<MoviesResponse> {
-        return Endpoint(path: "3/search/movie/",
+        return Endpoint(path: "3/search/movie",
                         method: .get,
                         queryParametersEncodable: moviesRequestDTO)
     }
@@ -85,6 +85,7 @@ class ViewController: UIViewController {
     @IBOutlet private weak var overviewTextView: UITextView!
     @IBOutlet private weak var imageView: UIImageView!
     @IBOutlet private weak var loadingView: UIActivityIndicatorView!
+    private let mainQueue: DispatchQueue = .main
 
     private let dataTransferService: DataTransferService = DIContainer.shared.apiDataTransferService
     private let imageTransferService: DataTransferService = DIContainer.shared.imageDataTransferService
@@ -98,14 +99,22 @@ class ViewController: UIViewController {
     func loadData() {
 
         let endpoint = APIEndpoints.getMovies(with: MoviesRequest(query: "Batman Begins", page: 1))
-        dataTransferService.request(with: endpoint) { result in
+        dataTransferService.request(with: endpoint) { [weak self] result in
+            guard let self else { return }
+            self.mainQueue.async {
+                guard case let .success(response) = result, let movie = response.movies.first else { return }
+                self.title = movie.title
+                self.overviewTextView.text = movie.overview
 
-            guard case let .success(response) = result, let movie = response.movies.first else { return }
-            self.title = movie.title
-            self.overviewTextView.text = movie.overview
-
-            guard let posterPath = movie.posterPath else { return }
-            self.imageTransferService.request(with: APIEndpoints.getMovieImage(path: posterPath)) { result in
+                self.loadPosterImage(posterPath: movie.posterPath)
+            }
+        }
+    }
+    
+    func loadPosterImage(posterPath: String?) {
+        guard let posterPath = posterPath else { return }
+        self.imageTransferService.request(with: APIEndpoints.getMovieImage(path: posterPath)) { result in
+            self.mainQueue.async {
                 guard case let .success(imageData) = result else { return }
                 self.imageView.image = UIImage(data: imageData)
             }
