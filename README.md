@@ -4,7 +4,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
 [![Swift 5](https://img.shields.io/badge/compatible-swift%205.0%20-orange.svg)](https://cocoapods.org/pods/SENetworking)
-[![Platforms]([https://img.shields.io/cocoapods/p/SENetworking](https://img.shields.io/badge/Platforms-iOS_macOS_watchOS_tvOS-Green))](https://cocoapods.org/pods/SENetworking#carthage-to-install-it-with-carthage-simply-add-the-following-line-to-your-cartfile)
+[![Platforms]([[https://img.shields.io/cocoapods/p/SENetworking](https://img.shields.io/badge/Platforms-iOS_macOS_watchOS_tvOS-Green)](https://img.shields.io/badge/Platforms-iOS_macOS_watchOS_tvOS-Green))](https://cocoapods.org/pods/SENetworking#carthage-to-install-it-with-carthage-simply-add-the-following-line-to-your-cartfile)
 [![License](https://img.shields.io/github/license/kudoleh/SENetworking)](https://cocoapods.org/pods/SENetworking#license)
 
 
