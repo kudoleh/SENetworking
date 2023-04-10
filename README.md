@@ -6,7 +6,6 @@
 [![Swift 5](https://img.shields.io/badge/compatible-swift%205.0%20-orange.svg)](https://cocoapods.org/pods/SENetworking)
 [![Platform](https://img.shields.io/cocoapods/p/SENetworking)](https://cocoapods.org/pods/SENetworking#carthage-to-install-it-with-carthage-simply-add-the-following-line-to-your-cartfile)
 [![License](https://img.shields.io/github/license/kudoleh/SENetworking)](https://cocoapods.org/pods/SENetworking#license)
-[![CI](https://img.shields.io/travis/kudoleh/SENetworking)](https://travis-ci.com/github/kudoleh/SENetworking)
 
 
 **S**uper **E**asy **Networking** is  simple and convenient wrapper around NSURLSession that supports common needs. A framework that is small enough to read in one go but useful enough to include in any project. It is fully tested framework for iOS, tvOS, watchOS and OS X.
