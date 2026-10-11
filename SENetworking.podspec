@@ -16,7 +16,7 @@ Simple NSURLSession wrapper
 
   s.homepage         = 'https://github.com/kudoleh/SENetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Oleh Kudinov' => 'oleh.kudinov@olx.com' }
+  s.author           = { 'Oleh Kudinov' => 'kudoleh@hotmail.com' }
   s.source           = { :git => 'https://github.com/kudoleh/SENetworking.git', :tag => s.version.to_s }
 
   s.swift_version = '5.0'
