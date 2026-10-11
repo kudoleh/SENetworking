@@ -100,6 +100,10 @@ dataTransferService.request(with: endpoint) { result in
 ```
 
 
+## Requirements
+
+Xcode 14+, Swift 5.5+, iOS 15.0+
+
 ## Installation
 
 ### [CocoaPods](https://cocoapods.org): To install it with CocoaPods, simply add the following line to your Podfile:
